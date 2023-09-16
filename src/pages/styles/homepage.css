@@ -1,0 +1,12 @@
+.navbar_bg {
+  background-color: black;
+}
+
+.navbar-item {
+  color: white;
+}
+
+.navbar-citem:hover {
+  color: black !important;
+  background-color: lightgray !important;
+}
