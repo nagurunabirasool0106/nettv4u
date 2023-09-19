@@ -1,10 +1,10 @@
 import { api } from '~/utils/api'
-import AppBarMain from '../components/mainAppbar'
-import Navbar from '../components/navbar'
-import Spacer from '../components/spacer'
+import AppBarMain from '../components/AppBar/mainAppbar'
+import Navbar from '../components/AppBar/navbar'
+import Spacer from '../components/Utils/spacer'
 import { Box } from '@mui/material'
 
-import TrendingHot from './components/trendingHot'
+import TrendingHot from '../components/TrendingHot/trendingHot'
 export default function Home() {
   //TODO: Implement TRPC Later
   // const hello = api.example.hello.useQuery({ text: 'from tRPC' })
@@ -15,7 +15,9 @@ export default function Home() {
       <Box sx={{ margin: 'auto', width: '80%' }}>
         <Navbar />
       </Box>
-      <TrendingHot />
+      <Box sx={{ margin: 'auto', width: '80%' }}>
+        <TrendingHot />
+      </Box>
     </>
   )
 }

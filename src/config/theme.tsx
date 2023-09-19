@@ -19,7 +19,7 @@ const theme = createTheme({
       styleOverrides: {
         list: {
           '&[role="menu"]': {
-            backgroundColor: '#fff0f5', // Customize the background color
+            backgroundColor: '#ffffff',
           },
         },
       },

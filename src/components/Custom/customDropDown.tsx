@@ -91,7 +91,7 @@ export default function CustomDropdown({
         open={open}
         onClose={handleClose}
       >
-        {menuItems.map((item, index) => (
+        {menuItems?.map((item, index) => (
           <div key={index}>
             <MenuItem onClick={handleClose} disableRipple>
               {item}
